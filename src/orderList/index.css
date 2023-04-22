@@ -1,0 +1,29 @@
+.order-wrapper {
+    height: auto;
+    display: flex;
+    padding-left: 20px;
+}
+
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: left;
+    width: 30%;
+}
+
+.map-wrapper {
+    width: 70%;
+    height: auto;
+
+}
+
+
+.map-holder {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
