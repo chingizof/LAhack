@@ -1,0 +1,48 @@
+.order-wrapper {
+    height: auto;
+    display: flex;
+    padding-left: 20px;
+}
+
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: left;
+    width: 30%;
+}
+
+.map-wrapper {
+    width: 70%;
+    height: auto;
+
+}
+
+
+.map-holder {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchPage__info {
+    padding: 20px;
+  }
+
+.searchPage__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.searchPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+  }
