@@ -34,7 +34,7 @@ const Recommendation = () => {
     //     }
     // }
 
-    const apiKey = "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"
+    const apiKey = "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"
     const apiUrl = "https://api.openai.com/v1/engines/davinci-codex/completions"; 
 
     // useEffect(() => {
