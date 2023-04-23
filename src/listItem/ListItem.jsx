@@ -42,7 +42,7 @@ export const ListItem = ({
             <div className='searchResult__info'>
                 <div className="searchResult__infoTop">
                     <p>{location}</p>
-                    <Link to={`/hotel/${title}`}>
+                    <Link to={`/hotel/${title}`}> {/*how to show different data depending on id?*/}
                         <h3>{title}</h3>
                     </Link>
                     <p>____</p>

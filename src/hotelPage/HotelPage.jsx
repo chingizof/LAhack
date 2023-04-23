@@ -1,7 +1,7 @@
 import React from 'react'
 import "./index.css"
 
-const HotelPage = () => {
+const HotelPage = ({ navigation, route }) => {
     return(
         <div className="hotel-page-wrapper">
 

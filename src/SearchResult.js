@@ -43,3 +43,13 @@ function SearchResult({
 }
 
 export default SearchResult
+
+
+//fill an array of objects where each object is a hotel in USA. Create 10 objects. Example of project:
+// {"img": url,
+// "location": "Private room in center of London" ,
+// "title": "Stay at this spacious Edwardian House",
+// "description": "1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
+// "star": 4.73,
+// "price": "£30 / night",
+// "total": "£117 total"}

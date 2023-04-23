@@ -2,8 +2,24 @@ import React from 'react';
 import './SearchPage.css';
 import { Button } from "@material-ui/core";
 import SearchResult from "./SearchResult";
+import hotelsData from "./hotelsData.js"
+
+
 
 function SearchPage() {
+
+    const listNumbers = hotelsData.map((hotel) =>
+    <SearchResult 
+        img={hotel.img}
+        location={hotel.location}
+        title={hotel.title}
+        description={hotel.description}
+        star={hotel.star}
+        price={hotel.price}
+        total={hotel.total}
+    />)
+
+
     return (
         <div className='searchPage'>
             <div className='searchPage__info'>
@@ -15,6 +31,7 @@ function SearchPage() {
                 <Button variant="outlined">Rooms and beds</Button>
                 <Button variant="outlined">More filters</Button>
             </div>
+            {listNumbers}
             <SearchResult
                 img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
                 location="Private room in center of London"

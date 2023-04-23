@@ -24,7 +24,7 @@ function App() {
           <Route path="/map">
             <OrderList />
           </Route>
-          <Route path="/hotel/:id" element = {<HotelPage />} />
+          <Route path="/hotel/:id" element = {<HotelPage />} /> 
 
           <Route path="/">
             <Home />
