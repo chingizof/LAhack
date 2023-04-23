@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+create .env file and include 
+### SKIP_PREFLIGHT_CHECK=true
+### OPENAI_API_KEY= "your api key"
