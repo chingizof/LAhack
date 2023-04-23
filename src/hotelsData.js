@@ -11,7 +11,7 @@ const hotelsData = [
     },
     {
         "id": 1,
-      "img": "image2.jpg",
+      "img": "https://modernlivingla.com/wp-content/uploads/2021/09/2845-1.5-Avenel-Street_2.png",
       "location": "Los Angeles, California",
       "title": "Stylish Condo in Trendy Silver Lake Neighborhood",
       "description": "4 guests · 2 bedrooms · 2 queen beds · 2 private baths · WiFi · Air conditioning · Kitchen · Free parking",
@@ -21,7 +21,7 @@ const hotelsData = [
     },
     {
         "id": 2,
-      "img": "image3.jpg",
+      "img": "https://img.hwnstatic.com/500/350/80/false/hS6xM66VW7aPPkNHCWPi.PFFPwqfnBUd:I7pTXuEkLetAsoFkBzVn8ylNy05cd1rF1rbGG2kd.SldG8gcduM2qT0gerU1Qahliu3xzwVjs:pAN6kpqGGXhpjGkFBGMXw733os662SaM.So9JQ2gKN3AVrNgoWNeIoeMxj9RSTi4E.7oT4oBYYHYzuj6lPQ__",
       "location": "Chicago, Illinois",
       "title": "Cozy Loft in River North Art District",
       "description": "2 guests · 1 bedroom · 1 queen bed · 1 private bath · WiFi · Air conditioning · Kitchen · Free parking",
@@ -31,7 +31,7 @@ const hotelsData = [
     },
     {
         "id": 3,
-      "img": "image4.jpg",
+      "img": "https://media.architecturaldigest.com/photos/60647e38f3b3a767366efe10/16:9/w_2560%2Cc_limit/Views.jpg",
       "location": "Miami Beach, Florida",
       "title": "Beachfront Condo with Stunning Ocean Views",
       "description": "4 guests · 2 bedrooms · 2 queen beds · 2 private baths · WiFi · Air conditioning · Kitchen · Free parking · Pool",
@@ -41,7 +41,7 @@ const hotelsData = [
     },
     {
         "id": 4,
-      "img": "image5.jpg",
+      "img": "https://images.ctfassets.net/jeox55pd4d8n/5HYKkDA8NHpKQA2XtPaD5E/209af43180bf6c91f5a2126b04d11978/shutterstock_171878054.jpg",
       "location": "San Francisco, California",
       "title": "Charming Cottage in Haight-Ashbury District",
       "description": "2 guests · 1 bedroom · 1 queen bed · 1 private bath · WiFi · Air conditioning · Kitchen",
@@ -51,7 +51,7 @@ const hotelsData = [
     },
     {
         "id": 5,
-      "img": "image6.jpg",
+      "img": "https://res.cloudinary.com/peerspace-inc/image/upload/mbrrdcxycs7tuphmlbrk.jpg",
       "location": "Austin, Texas",
       "title": "Spacious Loft in Downtown Austin",
       "description": "4 guests · 2 bedrooms · 2 queen beds · 2 private baths · WiFi · Air conditioning · Kitchen · Free parking · Pool",
@@ -61,7 +61,7 @@ const hotelsData = [
     },
     {
         "id": 6,
-      "img": "image7.jpg",
+      "img": "https://www.thegeographicalcure.com/wp-content/uploads/2021/09/img_61560527d8250.",
       "location": "Boston, Massachusetts",
       "title": "Historic Brownstone in Beacon Hill",
       "description": "6 guests · 3 bedrooms · 3 queen beds · 2 shared baths · WiFi · Air conditioning · Kitchen",
@@ -71,7 +71,7 @@ const hotelsData = [
     },
     {
         "id": 7,
-        "img": "image8.jpg",
+        "img": "https://www.shedbuilt.com/wp-content/uploads/2016/05/Capitol-Hill-Loft_Main_web.jpg",
         "location": "Seattle, Washington",
         "title": "Modern Loft in Capitol Hill Neighborhood",
         "description": "2 guests · 1 bedroom · 1 queen bed · 1 private bath · WiFi · Air conditioning · Kitchen · Free parking",
@@ -81,7 +81,7 @@ const hotelsData = [
     },
     {
         "id": 8,
-        "img": "image9.jpg",
+        "img": "https://media.vrbo.com/lodging/23000000/22780000/22776600/22776586/d010ca80.f10.jpg",
         "location": "Nashville, Tennessee",
         "title": "Rustic Cabin in the Woods",
         "description": "2 guests · 1 bedroom · 1 queen bed · 1 private bath · WiFi · Air conditioning · Kitchen",
@@ -91,7 +91,7 @@ const hotelsData = [
       },
       {
         "id": 9,
-        "img": "image10.jpg",
+        "img": "https://c8.alamy.com/comp/C5K80F/outdoor-mural-alberta-arts-district-portland-oregon-C5K80F.jpg",
         "location": "Portland, Oregon",
         "title": "Vintage Airstream Trailer in Artsy Alberta Arts District",
         "description": "2 guests · 1 bedroom · 1 queen bed · 1 private bath · WiFi · Air conditioning · Kitchen",

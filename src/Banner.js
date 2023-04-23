@@ -18,11 +18,11 @@ function Banner() {
                 </Button>
             </div>
             <div className='banner__info'>
-                <h1>Get out and stretch your imagination</h1>
+                <h1>Welcome to ChargeHotels</h1>
                 <h5>
-                    Plan a different kind of getaway to uncover the hidden gems near you.
+                    Get accesss to the locations of hotels that include charging station, and book them.
                 </h5>
-                <Button onClick={() => history.push('/map')} variant='outlined'>Explore Nearby</Button>
+                <Button onClick={() => history.push('/map')} variant='outlined'>Get Started</Button>
             </div>
         </div>
     )
