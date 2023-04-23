@@ -1,6 +1,7 @@
 const hotelsData = [
     {
-      "img": "image1.jpg",
+      "id": 0,
+      "img": "https://www.themarkhotel.com/app/uploads/2015/04/manhattan-suite-living-and-bedroom-2000x1333.jpg",
       "location": "New York City, New York",
       "title": "Luxurious Suite in the Heart of Manhattan",
       "description": "2 guests · 1 bedroom · 1 king bed · 1 private bath · WiFi · Air conditioning · Gym · Pool · Free parking",
@@ -9,6 +10,7 @@ const hotelsData = [
       "total": "$1,750 total"
     },
     {
+        "id": 1,
       "img": "image2.jpg",
       "location": "Los Angeles, California",
       "title": "Stylish Condo in Trendy Silver Lake Neighborhood",
@@ -18,6 +20,7 @@ const hotelsData = [
       "total": "$1,225 total"
     },
     {
+        "id": 2,
       "img": "image3.jpg",
       "location": "Chicago, Illinois",
       "title": "Cozy Loft in River North Art District",
@@ -27,6 +30,7 @@ const hotelsData = [
       "total": "$840 total"
     },
     {
+        "id": 3,
       "img": "image4.jpg",
       "location": "Miami Beach, Florida",
       "title": "Beachfront Condo with Stunning Ocean Views",
@@ -36,6 +40,7 @@ const hotelsData = [
       "total": "$2,100 total"
     },
     {
+        "id": 4,
       "img": "image5.jpg",
       "location": "San Francisco, California",
       "title": "Charming Cottage in Haight-Ashbury District",
@@ -45,6 +50,7 @@ const hotelsData = [
       "total": "$1,050 total"
     },
     {
+        "id": 5,
       "img": "image6.jpg",
       "location": "Austin, Texas",
       "title": "Spacious Loft in Downtown Austin",
@@ -54,6 +60,7 @@ const hotelsData = [
       "total": "$1,400 total"
     },
     {
+        "id": 6,
       "img": "image7.jpg",
       "location": "Boston, Massachusetts",
       "title": "Historic Brownstone in Beacon Hill",
@@ -63,6 +70,7 @@ const hotelsData = [
       "total": "$1,575 total"
     },
     {
+        "id": 7,
         "img": "image8.jpg",
         "location": "Seattle, Washington",
         "title": "Modern Loft in Capitol Hill Neighborhood",
@@ -72,6 +80,7 @@ const hotelsData = [
         "total": "$875 total"
     },
     {
+        "id": 8,
         "img": "image9.jpg",
         "location": "Nashville, Tennessee",
         "title": "Rustic Cabin in the Woods",
@@ -81,6 +90,7 @@ const hotelsData = [
         "total": "$700 total"
       },
       {
+        "id": 9,
         "img": "image10.jpg",
         "location": "Portland, Oregon",
         "title": "Vintage Airstream Trailer in Artsy Alberta Arts District",

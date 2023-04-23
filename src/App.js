@@ -5,6 +5,7 @@ import Header from './Header'
 import Footer from './Footer'
 import SearchPage from './SearchPage'
 import HotelPage from './hotelPage/HotelPage'
+import Recommendation from './gpt/Recommendation'
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { OrderList } from './orderList/OrderList';
@@ -21,10 +22,16 @@ function App() {
           <Route path="/search">
             <SearchPage />
           </Route>
+          <Route path="/daun">
+            <Recommendation />
+          </Route> 
           <Route path="/map">
             <OrderList />
           </Route>
-          <Route path="/hotel/:id" element = {<HotelPage />} /> 
+          <Route path="/hotel/:id">
+            <HotelPage />
+          </Route> 
+          
 
           <Route path="/">
             <Home />

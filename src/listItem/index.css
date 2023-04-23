@@ -6,6 +6,7 @@
     padding: 20px;
     border-bottom: 1px solid lightgray;
     cursor: pointer;
+    width: 35vw;
   }
 
 .searchResult:hover {

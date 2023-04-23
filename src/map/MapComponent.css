@@ -1,11 +1,13 @@
 
 .map-holder {
-
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 80vw; /* Set a fixed height for the map */
+  width: 60vw; /* Set a fixed width for the map */
+  position: fixed; /* Set the position to fixed */
+  top: 0; /* Set the distance from the top */
+  right: 0; /* Set the distance from the right */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .inside-map {
